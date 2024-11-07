@@ -1,0 +1,14 @@
+#list to set
+my_list = [1,2,35,21]
+my_set = set(my_list)
+print(my_set)
+
+#list to tuple
+my_list = [2,35,61,1]
+mytuple = tuple(my_list)
+print(mytuple) 
+
+#list to dict
+my_list = [("a",1), ("b",2)]
+dict = dict(my_list)
+print(dict)
